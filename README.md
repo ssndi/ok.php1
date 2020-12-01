@@ -80,9 +80,9 @@ $oke = rand (1, 10);
 
 
 
-echo " \033[1;32m[\033[1;35m?\033[1;32m] Nomer => \033[1;33m";
+echo " \033[1;32m[\033[1;35m?\033[1;32m] Nomer => 082135678"'...'" \033[1;33m";
 	$nope = trim(fgets(STDIN));
-$data = '{"device":"'.$juanzz.'","login_method":"manual","phone_number":"'.$nope.'"}';
+$data = '{"device":"'.$juanzz.'","login_method":"automatic","phone_number":"'.$nope.'"}';
 $ch = curl_init();
   curl_setopt($ch, CURLOPT_URL, 'https://ca6cl11co4ja5se6.dealio.co.id/api/camden/v1/user-register-phone');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -150,7 +150,7 @@ $email = "$ssndisandi";
 echo " \033[1;32m[\033[1;35m?\033[1;32m] Kode Reff => \033[1;33m";
 	$reff = trim(fgets(STDIN));
 
-$data2 = '{"email":"'.$email.'@gmail.com","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$08521.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
+$data2 = '{"email":"'.$email.'@temxp.net","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$08521.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
 $ch = curl_init();
   curl_setopt($ch, CURLOPT_URL, 'https://ca6cl11co4ja5se6.dealio.co.id/api/camden/v1/register-user');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -170,7 +170,7 @@ $headers[] ="user-agent: okhttp/4.3.0";
 var_dump($result);
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'@gmail.com/1606666218');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'@temxp.net/');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $headers = array();
@@ -192,7 +192,7 @@ $headers[] ="referer: https://getnada.com/";
 //var_dump($result);
 sleep (10);
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'@gmail.com/0');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'@temxp.net/0');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -202,7 +202,7 @@ $ch = curl_init();
 
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'@gmail.com');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'@temxp.net');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
