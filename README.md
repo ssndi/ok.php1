@@ -141,7 +141,7 @@ $headers[] ="user-agent: okhttp/4.3.0";
  $json = json_decode($result,true);
 //var_dump($result);
 $email = "$juan16";
-//echo " \033[1;32m[\033[1;35m?\033[1;32m] email => $juan16 \033[1;33m";
+//echo " \033[1;32m[\033[1;35m?\033[1;32m] email => $sfedy65 \033[1;33m";
 	
 	
 	
@@ -149,7 +149,7 @@ $email = "$juan16";
 echo " \033[1;32m[\033[1;35m?\033[1;32m] Kode Reff => \033[1;33m";
 	$reff = trim(fgets(STDIN));
 
-$data2 = '{"email":"'.$email.'thandphone+@yandex.com","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$juan8.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
+$data2 = '{"email":"'.$email.'@givmail.com","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$juan8.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
 $ch = curl_init();
   curl_setopt($ch, CURLOPT_URL, 'https://ca6cl11co4ja5se6.dealio.co.id/api/camden/v1/register-user');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -169,7 +169,7 @@ $headers[] ="user-agent: okhttp/4.3.0";
 var_dump($result);
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'thandphone+@yandex.com/1606666218');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'@givmail.com/1606666218');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $headers = array();
@@ -191,7 +191,7 @@ $headers[] ="referer: https://getnada.com/";
 //var_dump($result);
 sleep (10);
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'thandphone+@yandex.com/0');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'@givmail.com/0');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -201,7 +201,7 @@ $ch = curl_init();
 
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'thandphone+@yandex.com');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'@givmail.com');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -233,7 +233,7 @@ $headers[] ="Referer: https://getnada.com/api/v1/messages/html/$uidd";
  $json = json_decode($result,true);
 //var_dump($result);
 $a = explode('<a href="https://webstatic.dealio.co.id/verify-email?token=', $result);
-$b = explode('&amp;email='.$email.'@enml.net" target="_blank"><img height="auto" src="https://s3-eu-west-1.amazonaws.com/topolio/uploads/5f9f97e32b938/1604305178.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"></a>', $a[1]);
+$b = explode('&amp;email='.$email.'@givmail.com" target="_blank"><img height="auto" src="https://s3-eu-west-1.amazonaws.com/topolio/uploads/5f9f97e32b938/1604305178.jpg" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"></a>', $a[1]);
 $cc = $b[0];
 $udid = $json["uid"];
 
