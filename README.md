@@ -149,7 +149,7 @@ $email = "$juan16";
 echo " \033[1;32m[\033[1;35m?\033[1;32m] Kode Reff => \033[1;33m";
 	$reff = trim(fgets(STDIN));
 
-$data2 = '{"email":"'.$email.'thandphone+'@yandex.com","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$juan8.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
+$data2 = '{"email":"'.$email.'thandphone+@yandex.com","firebase_token":"","login_method":"manual","name":"'.$juan8.'","password":"'.$juan8.'","refcode":"'.$reff.'","regis_device_id":"'.$tuken.'","regis_phone_number_id":"'.$regis.'"}';
 $ch = curl_init();
   curl_setopt($ch, CURLOPT_URL, 'https://ca6cl11co4ja5se6.dealio.co.id/api/camden/v1/register-user');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
@@ -169,7 +169,7 @@ $headers[] ="user-agent: okhttp/4.3.0";
 var_dump($result);
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'thandphone+'@yandex.com/1606666218');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$email.'thandphone+@yandex.com/1606666218');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $headers = array();
@@ -191,7 +191,7 @@ $headers[] ="referer: https://getnada.com/";
 //var_dump($result);
 sleep (10);
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'thandphone+'@yandex.com/0');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/u/'.$juan16.'thandphone+@yandex.com/0');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
@@ -201,7 +201,7 @@ $ch = curl_init();
 
 
 $ch = curl_init();
-  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'thandphone+'@yandex.com');
+  curl_setopt($ch, CURLOPT_URL, 'https://getnada.com/api/v1/inboxes/'.$email.'thandphone+@yandex.com');
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
