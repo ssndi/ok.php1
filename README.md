@@ -79,7 +79,7 @@ $oke = rand (1, 10);
 
 
 
-echo " \033[1;32m[\033[1;35m?\033[1;32m] Nomer hp => \033[1;33m";
+echo " \033[1;32m[\033[1;35m?\033[1;32m] Nomer => \033[1;33m";
 	$nope = trim(fgets(STDIN));
 $data = '{"device":"'.$juanzz.'","login_method":"manual","phone_number":"'.$nope.'"}';
 $ch = curl_init();
